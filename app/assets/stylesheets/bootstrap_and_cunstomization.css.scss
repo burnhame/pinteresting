@@ -1,4 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
 $body-bg:    lightblue;
 $navbar-default-bg: #2980b9;
 $navbar-default-link-color: white;
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
