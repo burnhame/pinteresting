@@ -1,5 +1,4 @@
 class Pin < ActiveRecord::Base
-	#makes it so that only a user can see there pins. Something 
-	# to do with associations 
-	belongs_to :user
+     belongs_to :user
+     has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "100x100>" }
 end
