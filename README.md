@@ -5,4 +5,5 @@ This is the pinteresting sample application for
 
 by [Ava Burnham](www.avaburnham.com)
 
+I LOVE RAILS!
 making changes to this I hope it works! 
