@@ -10,7 +10,8 @@
       <div class="panel-body">
         <div class="panel-heading center">
           <%= pin.description %><br/>
-          <strong><%= pin.user.email if pin.user %></strong>
+          <strong><%= pin.user.name if pin.user %></strong>
+          <%= pin.user.email if pin.user %>
           <% if pin.user == current_user %>
             <div class="actions">
                         <!--<%= link_to edit_pin_path(pin) do %>
