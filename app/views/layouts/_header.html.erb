@@ -9,7 +9,10 @@
         <span class="icon-bar"></span>
       </button>
       <!--<a class="navbar-brand" href="#">Pinteresting</a>-->
-      <%= link_to "Ava Burnham", root_path, class: "navbar-brand" %>
+      <%= link_to "T-Shirts" , root_path, class: "navbar-brand" %>
+        
+         
+
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,7 +20,11 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "About", about_path %></li>
-        <li><%= link_to "Portfolio", portfolio_path %></li> 
+        <li>
+            <%= link_to portfolio_path do %>
+              <span class="glyphicon glyphicon-tree-deciduous"></span> The shirts
+            <% end %>
+          </li>
         <li><%= link_to "Pins", pins_path %><li> 
         <% if user_signed_in? %>
           <li>

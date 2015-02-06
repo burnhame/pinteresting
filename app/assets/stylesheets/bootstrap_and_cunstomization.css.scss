@@ -3,8 +3,13 @@
 $body-bg:    lightblue;
 $navbar-default-bg: #2980b9;
 $navbar-default-link-color: white;
+
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
 .center {
 	text-align: center;
 }
+
+.box { transition: all .2s ease-in-out; }
+.box:hover { transform: scale(1.05); }
